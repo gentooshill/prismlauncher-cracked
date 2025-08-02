@@ -16,11 +16,11 @@ No need to compile from source — just grab the binary and go.
 
 Make sure you have git and either layman or eselect repository.
 
-To install with emerge:  
-sudo emerge --ask app-portage/layman app-portage/gentoolkit
+# To install with emerge:  
+`sudo emerge --ask app-portage/layman app-portage/gentoolkit`
 
-Or for eselect repository:  
-sudo emerge --ask app-eselect/eselect-repository
+# Or for eselect repository:  
+`sudo emerge --ask app-eselect/eselect-repository`
 
 ### 2. Add the overlay
 
