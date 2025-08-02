@@ -24,31 +24,37 @@ sudo emerge --ask app-eselect/eselect-repository
 
 ### 2. Add the overlay
 
-With layman:  
+# With layman:  
+```
 sudo layman -S  
 sudo layman -a prismlauncher
+```
 
-With eselect repository:  
+# With eselect repository:  
+```
 sudo eselect repository enable prismlauncher  
 sudo emaint sync -r prismlauncher
+```
 
-If the overlay is missing, add it manually:  
+## If the overlay is missing, add it manually:  
+```
 sudo eselect repository add prismlauncher git https://github.com/gentooshill/prismlauncher-cracked.git  
 sudo eselect repository enable prismlauncher  
 sudo emaint sync -r prismlauncher
+```
 
 ### 3. Sync portage tree
 
-sudo emerge --sync
+`sudo emerge --sync`
 
 ### 4. Install PrismLauncher
 
-sudo emerge --ask games-action/prismlauncher-cracked-bin
+`sudo emerge --ask games-action/prismlauncher-cracked-bin`
 
 ### 5. Run PrismLauncher
 
 Launch it from your app menu or run:  
-prismlauncher
+`prismlauncher`
 
 ## Troubleshooting
 
